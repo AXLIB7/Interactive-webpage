@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+h1 {
+  text-align: center;
+  color: #555;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+}
+#game-container {
+  max-width: fit-content;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#game-image {
+  width: auto;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#game-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+#yes-button,
+#no-button {
+  position: absolute;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#yes-button {
+  left: 45%;
+  background-color: #4CAF50;
+  color: white;
+}
+#yes-button:hover {
+  background-color: #3e8e41;
+}
+
+#no-button {
+  right: 45%;
+  background-color: #FF0000;
+  color: white;
+}
+#no-button:hover {
+  background-color: #DF0101;
+}
+
+#score {
+  margin-top: 50px;
+  text-align: center;
+}

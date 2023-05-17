@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<script src="https://cdn.jsdelivr.net/npm/@openai/api@0.4.1/dist/web.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+    	<div class="banner">
+    		<h1 style="color:#fff">AI tool in Realm of Creativity</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Introduction to AI</a></li>
+                <li><a href="#section2">AI Writing</a></li>
+                <li><a href="#section3">AI Art</a></li>
+                <li><a href="#section4">AI Music</a></li>
+                <li><a href="#section5">Ethic and Controversy</a></li>
+                <li><a href="Mini Game.html" target="_blank">Interactive Mini Game</a></li>
+                <li><a href="Mini quiz.html" target="_blank">Interactive Mini Quiz</a></li>
+            </ul>
+        </nav>
+    	</div>
+        
+    </header>
+
+    <main>
+		<section id="section1" class="horizontal-scroll">
+			<div class="fixed-container">
+				<h2>Introduction on AI</h2>
+				
+			</div>
+			
+			<div class="page">
+				<div class="textbox">
+					<h3>What is AI</h3>
+					<p>
+						Artificial Intelligence, commonly known as AI, refers to the development of computer programs that can perform tasks that typically require human intelligence, such as recognizing speech, making decisions, identifying objects, even perfoming some advanced tasks. The essence of AI is to create machines that can learn from their experiences and improve their performance over time, similar to how humans learn and adapt. While AI has made significant advancement in recent years, it is still in its early stages and has a long way to go to match the complexity and capability of human intelligence. While all of the AI tools covered in this website function the same way at its core, there are still specific techniques being used for different purposes, which is being covered in the next three sections.  
+					</p>
+				</div>
+			</div>
+			<div class="page">
+				<div class="textbox">
+					<h3>Machine Learning</h3>
+					<p>
+						Machine learning is a subfield of AI that focuses on teaching computers to learn from data without being explicitly programmed. This involves feeding large amounts of data into a machine learning algorithm, which identifies patterns and relationships within the data to make predictions or decisions. The process typically involves dividing the data into training and testing sets, with the training data used to teach the algorithm and the testing data used to evaluate its performance.
+					</p>
+					<p>
+						Machine learning algorithms can be categorized into three main types: supervised learning, unsupervised learning, and reinforcement learning. In supervised learning, the algorithm is trained on a labeled dataset, where the correct answer is provided for each example. In unsupervised learning, the algorithm is given an unlabeled dataset and must find patterns and structure on its own. Reinforcement learning involves the algorithm learning through trial and error, receiving rewards for making correct decisions and penalties for incorrect ones.
+					</p>
+				</div>
+			</div>
+			<div class="page">
+				<div class="textbox">
+					<h3>Neural Network</h3>
+					<p>
+						Neural networks are a type of machine learning algorithm that are structured after the human brain. They consist of layers of interconnected nodes, or neurons, that process and transmit information. The first layer of a neural network is typically the input layer, where data is fed into the network. The output layer provides the final predictions or decisions, while the layers in between are known as hidden layers and are responsible for processing the data.
+						Neural networks can be trained using a process called backpropagation, where the output of the network is compared to the expected output, and the error is propagated backwards through the network to adjust the weights and biases of the neurons. The performance of a neural network is highly dependent on the number of layers, the number of neurons in each layer, and the weights and biases of each neuron.
+						<div class="image-container">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Neural_network_example.svg/1200px-Neural_network_example.svg.png" alt="Neural network example">
+						</div>
+					</p>
+				</div>
+			</div>
+			<div class="fixed-container">
+				<button class="nav-button prev" onclick="scrollSection('section1', 'prev')">&lt;</button>
+				<button class="nav-button next" onclick="scrollSection('section1', 'next')">&gt;</button>
+			</div>
+		</section>
+			
+		
+		<section id="section2" class="horizontal-scroll">
+			<div class="fixed-container">
+				<h2>AI Writing</h2>
+			</div>
+			
+			<div class="page">
+				<div class="textbox">
+				<h3>Natural language processing</h3>
+					<p>
+						Natural language processing (NLP) is a field of AI that focuses on enabling machines to speak and understand language in a human-like manner. Natural language encompasses both written and spoken language and can be divided into two main groups: natural language generation and natural language understanding.
+					</p>
+					<p>
+						Natural language generation (NLG) is the process through which AI constructs phrases and sentences that feel natural. NLG consists of three essential phases:
+					</p>
+					<li>
+						Text planning, where the AI system determines the content and structure of the sentence it wants to generate.
+					</li>
+					<li>
+						Sentence planning, where the AI system selects appropriate words and phrases, arranges them in a coherent manner, and establishes the desired tone or style of the sentence.
+					</li>
+					<li>
+						Text realization, where the AI system maps the planned phrases into a grammatically correct and coherent sentence structure.
+					</li>
+					<p>
+						Natural language understanding (NLU) is the process by which AI systems read and extract important information from human language. NLU is tasked with tackling the various challenges and ambiguities present in human languages. These challenges include grammatical ambiguities, such as multiple meanings of the same word or character, and the potential for different interpretations of a sentence based on the arrangement of words or phrases. Furthermore, NLU must deal with ambiguities introduced by human errors, such as misspelled words or grammatical mistakes. AI systems employ techniques such as machine learning, deep learning, and statistical modeling to analyze and interpret language, identify entities, extract relationships, and comprehend the overall meaning of text.
+					</p>
+				</div>
+			</div>
+			<div class="page">
+				<div class="textbox">
+					<h3>Recurrent Neural Network</h3>
+					<p>
+						Recurrent Neural Networks (RNNs) are a type of neural network that excel in handling sequential data and capturing the temporal dependencies within it. Unlike traditional feedforward neural networks, which process inputs independently, RNNs maintain an internal memory state that allows them to retain information about previous inputs. This memory state enables RNNs to make use of context and capture long-term dependencies in the data, making them particularly effective in tasks involving sequences, such as natural language processing and time series analysis.
+					</p>
+					<p>
+						One key feature of RNNs is the presence of recurrent connections, which allow the network to propagate information from one step to the next. This means that the output at a particular time step not only depends on the current input but also on the previous inputs and the internal memory state. By recursively applying this process, RNNs can effectively model sequences of arbitrary length.
+					</p>
+					<p>
+						The internal structure of an RNN consists of a set of recurrent units, typically referred to as cells, which are interconnected in a recurrent manner. The most commonly used type of RNN cell is the Long Short-Term Memory (LSTM) cell. LSTMs are designed to address the vanishing gradient problem, which can occur when training deep neural networks, by incorporating specialized gates that control the flow of information within the network. These gates allow LSTMs to selectively retain or discard information from the memory state, making them well-suited for capturing long-term dependencies in sequential data.
+					</p>
+					<div class="image-container" style="width: 200%;left: -50%;">
+							<img src="https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/cdp/cf/ul/g/27/80/what-are-recurrent-neural-networks-combined.component.simple-narrative-xl.ts=1681483684199.jpg/content/adobe-cms/us/en/topics/recurrent-neural-networks/jcr:content/root/table_of_contents/intro/simple_narrative/image" alt="Recurrent Neural network example">
+							<figcaption>A Recurrent Neural Network model</figcaption>
+					</div>
+					<p>
+					</p>
+				</div>
+			</div>
+			<div class="page">
+				<div class="textbox">
+					<h3>Text Summarization</h3>
+					<p>
+						Text summarization is a natural language processing task that involves generating a condensed version of a larger text, while still retaining the key information and main points. There are two main approaches to text summarization:
+					</p>
+					<li>
+						Extractive Summarization: This involves selecting the most important sentences or phrases from the original text and using them to create a summary. This approach is often used in news articles or scientific papers, where the main points are typically presented in a structured and organized way.
+					</li>
+					<li>
+						Abstractive Summarization: This involves generating a summary from scratch, using natural language generation techniques to create a new text that captures the essence of the original. This approach is more difficult, as it requires the AI to understand the content of the original text and generate new language that accurately conveys the meaning.
+					</li>
+					<p>
+						Text summarization can be achieved using various techniques, including RNNs and other deep learning algorithms. These techniques allow AI to analyze large amounts of text and identify the most important information, while also generating new language that is clear and concise. The use of AI in text summarization has numerous practical applications, from news aggregation to document summarization in business and research settings.
+					</p>
+				</div>
+			</div>
+			<div class="page">
+				<div class="textbox">
+					<h3>Try it Yourself!</h3>
+					<form>
+	    				<input type="text" id="prompt" name="prompt" placeholder="Enter your prompt">
+	    				<input type="submit" value="Generate text">
+	    			</form>
+	    			<div id="output"></div>
+	    		</div>
+			</div>
+			<div class="fixed-container">
+				<button class="nav-button prev" onclick="scrollSection('section2', 'prev')">&lt;</button>
+				<button class="nav-button next" onclick="scrollSection('section2', 'next')">&gt;</button>
+			</div>
+		</section>
+
+		<section id="section3" class="horizontal-scroll">
+			<div class="fixed-container">
+				<h2>AI Art</h2>
+			</div>
+			<div class="page">
+				<div class="textbox">
+					<h3>Neural Style Transfer</h3>
+					<p>
+						Neural Style Transfer is a technique used in computer vision and image processing that involves taking the style of one image and applying it to another image. This is achieved using a neural network, which can be trained to recognize different styles and apply them to new images.<br>
+						The process of Neural Style Transfer involves two key steps:
+					</p>
+					<li>
+						Content Extraction: The content of the input image is extracted and encoded by a pre-trained convolutional neural network (CNN). This captures the underlying structure, shapes, and objects within the image.
+					</li>
+					<li>
+						Style Transfer: The style of the reference image is captured by analyzing its features and textures at different scales using another pre-trained CNN. These style features are then combined with the extracted content features to generate a new image that preserves the content while adopting the desired style.
+					</li>
+					<p>
+						Neural Style Transfer has found applications in various artistic endeavors, such as transforming photographs into paintings with the style of renowned artists like Van Gogh or Picasso. Additionally, it has proven useful in creating unique visual effects, generating personalized artwork, and enhancing the aesthetics of images for creative purposes.
+					</p>
+				</div>
+			</div>
+			<div class="page">
+				<div class="textbox">
+					<h3>Generative Adversarial Networks</h3>
+					<p>
+						Generative Adversarial Networks, or GANs, are a type of deep learning algorithm that involves two neural networks working together to generate new data. GANs have revolutionized the field of artificial intelligence by introducing a novel approach to generating new data. GANs consist of two interconnected neural networks: the generator and the discriminator.
+					</p>
+					<li>
+						Generator: The generator network is responsible for producing synthetic data. It starts with random noise as input and gradually refines it through multiple layers to generate data that resembles the training examples. The generator aims to create data that is indistinguishable from real samples.
+					</li>
+					<li>
+						Discriminator: The discriminator network acts as the "adversary" of the generator. Its role is to distinguish between real and generated data. The discriminator is trained on a labeled dataset and learns to classify samples as real or fake. It provides feedback to the generator, guiding it to generate more realistic data.
+					</li>
+					<p>
+						The training process of GANs involves an adversarial game, where the generator and discriminator continuously compete and improve their performance. As the generator tries to produce more realistic data, the discriminator becomes better at distinguishing real from generated samples. This interplay leads to the generation of increasingly convincing and authentic data.
+					</p>
+					<p>
+						GANs have sparked significant advancements in various domains, including image synthesis, text generation, video creation, and even generating realistic human faces. They have enabled breakthroughs in generating lifelike images, data augmentation for training deep learning models, and creating immersive virtual environments. The useage of GANs extends to applications such as generating realistic virtual characters, synthesizing high-resolution images, and assisting in the design process by generating novel concepts.
+					</p>
+				</div>
+			</div>
+			<div class="page">
+				<div class="textbox">
+					<h3>Distinguishing AI art and Human art</h3>
+					<p>
+						Distinguishing between AI art and human art is becoming increasingly difficult as AI technology continues to improve. There isn’t any rule or guideline as to how to differentiate between them, often one has to rely on intuition and experience. However, there are still some characteristic that AI art tends to exhibit:
+					</p>
+					<li>
+						Techniques and Uniformity: AI-generated art often exhibits a high degree of uniformity in terms of techniques and execution. This is because the artwork is generated using predefined functions and machine learning algorithms. On the other hand, human art tends to vary in techniques, styles, and approaches, reflecting the unique perspective and creativity of the artist.
+					</li>
+					<li>
+						Surreal or Unconventional Elements: AI art sometimes possesses surreal or unconventional qualities that may be difficult to find in human art. The algorithms used in AI art creation can combine different elements and concepts in unexpected ways, resulting in imaginative and sometimes abstract compositions.
+					</li>
+					<li>
+						Lack of Intentionality: While human artists typically have specific intentions and concepts behind their creations, AI lacks this intentionality. AI algorithms are trained to generate art based on patterns and examples, but they lack a deep understanding of the meaning or purpose behind the art they produce. This can sometimes result in artworks that lack a coherent narrative or logical consistency.
+					</li>
+					<div class="quote">
+						<p>"Let’s say it was a ‘fantasy warrior armor’ type of situation. At a glance, the artwork looks beautiful and highly detailed, but a lot of the time there’s no logic behind it."</p>
+						<cite>- Dan Eder, a 3D character artist</cite>
+					</div>
+					<li>
+						Emotional Connection: Human art often carries an emotional depth and personal expression that may be challenging for AI to replicate. Human artists infuse their own experiences, thoughts, and emotions into their artwork, allowing viewers to connect with the pieces on a deeper level. AI-generated art, while visually stunning, may lack this emotional resonance due to its lack of personal experiences and subjective interpretation.
+					</li>
+					<li>
+						Imperfections and Human Touch: Human art often contains imperfections, variations, and subtle nuances that stem from the artist's hand and eye. These imperfections can give a sense of authenticity and individuality to the artwork. AI-generated art, on the other hand, tends to be technically precise and may lack the organic, imperfect qualities associated with human creations.
+					</li>
+					<p>
+						After learning about how to distinguishing between AI art and human art, here is a <a href="Mini Game.html" target="_blank">little game</a> do see how well you do in guess whether or not it is AI art or human art.
+					</p>
+					<p>
+					</p>
+				</div>
+			</div>
+			<div class="fixed-container">
+				<button class="nav-button prev" onclick="scrollSection('section3', 'prev')">&lt;</button>
+				<button class="nav-button next" onclick="scrollSection('section3', 'next')">&gt;</button>
+			</div>
+		</section>
+
+		<section id="section4" class="horizontal-scroll">
+			<div class="fixed-container">
+				<h2>AI Music</h2>
+			</div>
+			<div class="page">
+				<div class="textbox">
+					<h3>Music Information Retrieval</h3>
+					<p>
+						Music Information Retrieval (MIR) is a field that combines music, computer science, and signal processing to develop techniques and algorithms for analyzing music using computational methods. MIR aims to bridge the gap between human perception of music and the capabilities of computers, which enables machines to extract meaningful information from music and perform various tasks related to music analysis.
+					</p>
+					<p>
+						One of the fundamental goals of MIR is automatic music transcription, which involves converting audio signals into a symbolic representation of musical elements such as melody, harmony, and rhythm. This process requires advanced signal processing techniques, machine learning algorithms, and pattern recognition methods to accurately detect and categorize musical elements from audio recordings.
+					</p>
+					<p>
+						MIR also encompasses tasks like music genre classification, where machine learning algorithms are trained to classify music into different genres based on features such as tempo, timbre, and instrumentation. Music recommendation systems, another important application of MIR, utilize algorithms to analyze the listening habits and preferences of users, and provide personalized recommendations based on similarities between songs or user preferences.
+					</p>
+					<p>
+						To achieve these tasks, MIR utilizes a wide range of techniques, including spectral analysis, time-frequency analysis, machine learning, deep learning, and data mining. MIR researchers develop and refine algorithms that can automatically extract features from music, model the structure and context of musical pieces, and generate meaningful representations that facilitate music analysis and retrieval.
+					</p>
+				</div>
+			</div>
+			<div class="page">
+				<div class="textbox">
+					<h3>Data Harmonization</h3>
+					<p>
+						Data Harmonization is a critical process in MIR that deals with integrating and reconciling data from various sources to create a unified and consistent dataset suitable for analysis or machine learning. Music data often comes from diverse sources, such as audio recordings, music notation files, metadata databases, and user-generated content. Each of these sources may have different formats, structures, and levels of quality, making it challenging to merge and utilize the data effectively.
+					</p>
+					<p>
+						Data harmonization involves several steps to ensure the coherence and reliability of the combined dataset. It includes standardizing data formats, resolving inconsistencies in naming conventions and labeling schemes, and addressing discrepancies in content representation. For example, different music databases may use different classification systems for genres or employ varied taggings for similar attributes, requiring a harmonization process to ensure consistency across the dataset.
+					</p>
+					<p>
+						Data harmonization plays a crucial role in AI music by integrating diverse music data from various sources, formats, and structures into a cohesive and standardized dataset. In AI music, Data Harmonization ensures consistency and reliability, enabling accurate analysis, modeling, and training of machine learning algorithms. It addresses challenges such as aligning music features, resolving naming and labeling discrepancies, and cleaning and preprocessing the data. By harmonizing the data, AI music systems can effectively extract meaningful patterns, make accurate predictions, and generate high-quality music, enhancing the overall capabilities and performance of AI-driven music applications.
+					</p>
+				</div>
+			</div>
+			<div class="fixed-container">
+				<button class="nav-button prev" onclick="scrollSection('section4', 'prev')">&lt;</button>
+				<button class="nav-button next" onclick="scrollSection('section4', 'next')">&gt;</button>
+			</div>
+		</section>
+		<section id="section5" class="horizontal-scroll">
+			<div class="fixed-container">
+				<h2>Ethic and Controversy</h2>
+			</div>
+			<div class="page">
+				<div class="textbox">
+					<p>
+						The rise of AI in the realm of art has sparked debates and controversies, particularly in AI-generated art. Some argue that AI art is akin to plagiarism, as many AI algorithms use images from the internet as their training database, potentially infringing on artists' work without their consent. Artists who post their work online essentially contribute to training AI in their own style.
+					</p>
+					<p>
+						However, there are artists that have defended its usage by drawing parallels to digital image manipulation and processing tools like Photoshop. They argue that artistic creativity still plays a vital role in generating compelling art, even when assisted by AI algorithms. They emphasize that it is the responsibility of the individuals and companies utilizing AI art to consider ethical implications and give proper credit to the original artists.
+					</p>
+					<p>
+						A recently major drama was AI-generated art winning art prizes, which happened in September 2022 where Jason M. Allen won with an entry in Colorado State Fair’s annual art competition in the United State. Critics express concerns that this phenomenon may devalue human artists and their creative contributions. Mr. Allen argues the anger should be directed towards companies that replace artists with AI rather than at those who employ AI in their artistic processes.
+					</p>
+					<div class="quote">
+						<p>"It shouldn’t be an indictment of technology itself. The ethics isn’t in the technology. It’s in the people."</p>
+						<cite>- Jason M. Allen</cite>
+					</div>
+					<p>
+						However it should be noted that there has been a long history of controversy when it comes to art and technology. Many painters had criticized the technology of camera, as it was called “art’s most mortal enemy” (Charles Baudelaire, French poet and art critic).
+					</p>
+					<div class="image-container">
+							<img src="https://static01.nyt.com/images/2022/09/01/business/00roose-1/merlin_212276709_3104aef5-3dc4-4288-bb44-9e5624db0b37-videoSixteenByNineJumbo1600.jpg" alt="Artwork that won the Colorado State Fair art competition">
+							<figcaption>Artwork that won the Colorado State Fair art competition</figcaption>
+					</div>
+					<p>
+						Drama and controversy caused by AI does not only exist in the world of artists, writers are facing similar issues. AI-generated literature, such as the publication of an AI-written children's book called "Alice and Sparkle," has faced similar backlash. Critics question the authenticity of such works, accusing the creators of not truly "creating" anything since the AI does the majority of the work. Additionally, AI writing has raised concerns in the educational sphere, as it provides an easily accessible tool for cheating and generating essays, which challenges the integrity of academic assessments.
+					</p>
+					<p>
+						These controversies surrounding AI in art and writing reflect a broader historical pattern of skepticism and resistance towards new technologies. Just as early photographers faced criticism from traditional painters, the integration of AI into artistic domains disrupts established norms and raises profound questions about authorship, creativity, and the value of human artistic expression.
+					</p>
+					<li>
+						Unconsented use of one’s work in training of AI, which in some eyes are form of plagiarism
+					</li>
+					<li>
+						Lack of creativity involved as the artwork and writing are done by AI, which is still debated among artists and writers
+					</li>
+				</div>
+			</div>
+		</section>
+		<section id="section5" class="horizontal-scroll">
+			<div class="page">
+				<div class="textbox">
+					<p style="font-size: 30px; text-align: center;">
+						Thanks for spending your time on the poorly made website, for your reward, here is a <a href="Mini quiz.html" target="_blank">quiz</a> to test the knowledge you learned in this website.
+					</p>
+				</div>
+			</div>
+		</section>
+		<button onclick="topFunction()" id="home" title="Go to top">Top</button>
+
+	</main>
+
+    <script src="scripts/webscript.js"></script>
+
+</body>
+</html>

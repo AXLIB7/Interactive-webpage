@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Interactive Mini Game</title>
+    <link rel="stylesheet" href="css/game_style.css">
+  </head>
+  <body>
+    <div id="game-container">
+      <h1 style="text-align: center;">Interactive Mini Game</h1>
+      <img id="game-image">
+      <div id="game-buttons">
+        <button id="yes-button" onclick="checkAnswer(true)">AI</button>
+        <button id="no-button" onclick="checkAnswer(false)">Human</button>
+      </div>
+      <h2 id="score">Score: 0</h2>
+    </div>
+    <script src="scripts/gamescript.js"></script>
+  </body>
+</html>
